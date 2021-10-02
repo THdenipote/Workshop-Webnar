@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-F3w7mX95PdgyTmZZMECAngseQB83DfGTowi0iMjiWaeVhAn4FJkqJByhZMI3AhiU" crossorigin="anonymous">
+    <link rel="stylesheet" href="./CSS/style.css">
+    <link rel="shortcut icon" href="./ICONS/bootstrap-logo.svg" type="image/x-icon">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.1/dist/js/bootstrap.bundle.min.js" integrity="sha384-/bQdsTh/da6pkI1MST/rWKFNjaCP5gBSY4sEBT38Q/9RBh9AH40zEOg7Hlq2THRZ" crossorigin="anonymous"></script>
+    <title>Webnar 2021</title>
+</head>
+<body>
+    <header>
+        <div class="container">
+            <img id="logo" src="./IMAGES/logo2.png" alt="">
+        </div>
+    </header>
+
+    <section class="container">
+        <div id="carouselId" class="carousel slide" data-bs-ride="carousel">
+            <ol class="carousel-indicators">
+              <li data-bs-target="#carouselId" data-bs-slide-to="0" class="active"></li>
+              <li data-bs-target="#carouselId" data-bs-slide-to="1"></li>
+            </ol>
+            <div class="carousel-inner" role="listbox">
+              <div class="carousel-item active">
+                <img src="./IMAGES/img6.jpg" alt="First slide">
+              </div>
+              <div class="carousel-item">
+                <img src="./IMAGES/img4.jpg" alt="Foto de Marta Branco no Pexels">
+              </div>
+            </div>
+            <button class="carousel-control-prev" type="button" data-bs-target="#carouselId" data-bs-slide="prev">
+              <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+              <span class="visually-hidden">Previous</span>
+            </button>
+            <button class="carousel-control-next" type="button" data-bs-target="#carouselId" data-bs-slide="next">
+              <span class="carousel-control-next-icon" aria-hidden="true"></span>
+              <span class="visually-hidden">Next</span>
+              </button>
+          </div>
+          
+          
+          <div class="row">
+            <div class="col-md-6 col-sm-12 centered">
+              <h1>Thiago</h1>
+              <h6>Estudante de Ciência da Computação</h6>
+              <p>Atualmente sou estudande de ciência da computação, entusiasta pela tecnologia e apaixonado na área do front end, à procura de experiência para evoluir tanto pessoalmente quanto profissionalmente. Tenho 21 anos e sou da cidade de Ôrlandia-SP</p>
+            </div>
+          </div>
+          
+
+          <div class="container2"> 
+            <div class="container mt-3">
+              <div class="card" style="width:300px">
+                <img class="card-img-top" src="./ICONS/bootstrap-logo.svg" alt="Card image" style="width:50%">
+                <div class="card-body">
+                  <h4 class="card-title">Bootstrap</h4>
+                  <p class="card-text">Bootstrap é um framework web com código-fonte aberto para desenvolvimento de componentes de interface e front-end para sites e aplicações web usando HTML, CSS e JavaScript, baseado em modelos de design para a tipografia, melhorando a experiência do usuário em um site amigável e responsivo.</p>
+                  <a href="https://getbootstrap.com/docs/5.0/getting-started/introduction/" target="_blank" class="btn btn-primary" style="margin-top: 25px;">Saiba Mais</a>
+                </div>
+              </div>
+              </div>
+            
+            <div class="container mt-3">
+              <div class="card" style="width:300px">
+                <img class="card-img-top" src="./ICONS/html.png" alt="Card image" style="width:40%">
+                <div class="card-body">
+                  <h4 class="card-title">HTML5</h4>
+                  <p class="card-text">HTML5 (Hypertext Markup Language) é uma linguagem de marcação para a World Wide Web e é uma tecnologia chave da Internet, originalmente proposto por Opera Software. É a quinta versão da linguagem HTML.</p>
+                  <a href="https://www.tutorialspoint.com/html5/index.htm" target="_blank" class="btn btn-primary" style="margin-top: 95px;">Saiba Mais</a>
+                </div>
+              </div>
+              </div>
+
+            <div class="container mt-3">
+              <div class="card" style="width:300px">
+                <img class="card-img-top" src="./ICONS/css-3.png" alt="Card image" style="width:40%">
+                <div class="card-body">
+                  <h4 class="card-title">CSS3</h4>
+                  <p class="card-text">CSS3 é a terceira mais nova versão das famosas Cascading Style Sheets (ou simplesmente CSS), pela qual se define estilos para um projeto web (página de internet). Com efeitos de transição, imagem, imagem de fundo/background e outros, pode-se criar estilos únicos para seus projetos web, alterando diversos aspectos de design no layout da página.</p>
+                  <a href="https://www.tutorialspoint.com/css/css3_tutorial.htm" target="_blank" class="btn btn-primary" style="margin-top: 2px;">Saiba Mais</a>
+                </div>
+              </div>
+            </div>
+          </div>
+
+
+            <h2 style="margin-left: 15px;">TI</h2>
+            <div class="accordion accordion-flush" id="accordionFlushExample">
+                <div class="accordion-item">
+                  <h2 class="accordion-header" id="flush-headingOne">
+                    <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseOne" aria-expanded="false" aria-controls="flush-collapseOne">
+                      Backend
+                    </button>
+                  </h2>
+                  <div id="flush-collapseOne" class="accordion-collapse collapse" aria-labelledby="flush-headingOne" data-bs-parent="#accordionFlushExample">
+                    <div class="accordion-body">O desenvolvedor <code>backend</code> é aquele profissional capaz de desenvolver e manter sistemas no servidor, sendo responsável também por gerenciar a manipulação dos bancos de dados envolvidos. Entre suas atribuições, está uma das mais vitais de qualquer sistema: a implementação das regras de negócio da aplicação, ou seja, das regras que gerem toda a forma como essa aplicação deve se comportar diante de seus dados.</div>
+                  </div>
+                </div>
+                <div class="accordion-item">
+                  <h2 class="accordion-header" id="flush-headingTwo">
+                    <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseTwo" aria-expanded="false" aria-controls="flush-collapseTwo">
+                      Frontend
+                    </button>
+                  </h2>
+                  <div id="flush-collapseTwo" class="accordion-collapse collapse" aria-labelledby="flush-headingTwo" data-bs-parent="#accordionFlushExample">
+                    <div class="accordion-body">O desenvolvedor <code>frontend</code> é o profissional responsável por definir e implementar a melhor maneira de apresentar os dados enviados pelo servidor ao usuário final, considerando as características de cada usuário alvo e também de cada tipo de aplicação desenvolvida, seja para sites ou aplicativos mobile.</div>
+                  </div>
+                </div>
+                <div class="accordion-item">
+                  <h2 class="accordion-header" id="flush-headingThree">
+                    <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseThree" aria-expanded="false" aria-controls="flush-collapseThree">
+                      Full Stack
+                    </button>
+                  </h2>
+                  <div id="flush-collapseThree" class="accordion-collapse collapse" aria-labelledby="flush-headingThree" data-bs-parent="#accordionFlushExample">
+                    <div class="accordion-body">O desenvolvedor <code>full stack</code> é o profissional com conhecimentos técnicos suficientes para atuar nos dois lados da aplicação, ou seja, no lado do servidor e no lado do cliente. É um profissional versátil, com uma visão ampla da aplicação, e capaz de se comportar como analista de requisitos, gerente de projeto, arquiteto de software, UI/UX designer e analista de qualidade, conforme a necessidade.
+
+                      Para ser um desenvolvedor full stack, ao contrário do que muitos pensam, não é necessário ser um especialista em todas dessas áreas, mas é imprescindível ter um bom domínio das principais tecnologias e boas práticas envolvidas em cada especialidade.</div>
+                  </div>
+                </div>
+              </div>
+    </section>
+
+    <footer>
+      <span>&copy; Webnar 2021 - Desenvolvido por Thaigo <img src="./ICONS/12-layes-outline.gif" alt=""></span>      
+    </footer> 
+
+</body>
+</html>
